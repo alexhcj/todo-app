@@ -29,10 +29,10 @@ function App() {
 	return (
 		<div className='App'>
 			<header className='App-header'>
-				<h1>Hellow World!</h1>
+				<h1>Todo App</h1>
 				<form>
 					<FormControl>
-						<InputLabel>Write a Todo</InputLabel>
+						<InputLabel>Write a Todo <span role='img' aria-label='rocket-emoji'>🚀</span></InputLabel>
 						<Input
 							value={input}
 							onChange={(event) => setInput(event.target.value)}
